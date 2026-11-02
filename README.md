@@ -1,11 +1,11 @@
-# parallexpert_jd376
+# multinode_bandwidth_bottleneck_consistency_check
 
 **找出预训练并行策略专家·多机通信的带宽瓶颈里互相矛盾的两处并排列出。**
 
-`parallexpert_jd376` —— 在同一个输入里两两比对，检测预训练并行策略专家·多机通信的带宽瓶颈相关的矛盾表述，把冲突双方原样并排呈现
+`multinode_bandwidth_bottleneck_consistency_check` —— 在同一个输入里两两比对，检测预训练并行策略专家·多机通信的带宽瓶颈相关的矛盾表述，把冲突双方原样并排呈现
 
 - 零依赖，Python 3.10+ 标准库即可运行
-- 单文件，`parallexpert_jd376.py` 拷走就能用
+- 单文件，`multinode_bandwidth_bottleneck_consistency_check.py` 拷走就能用
 - 不联网、不写文件
 
 ## 对应的岗位
@@ -23,16 +23,16 @@
 零依赖，Python 3.10+ 即可：
 
 ```bash
-pip install selihorne-parallexpert_jd376
+pip install selihorne-multinode_bandwidth_bottleneck_consistency_check
 ```
 
 装完直接用命令名调用：
 
 ```bash
-parallexpert_jd376 --help
+multinode_bandwidth_bottleneck_consistency_check --help
 ```
 
-也可以不用安装，直接把 `parallexpert_jd376.py` 拷走用——它只依赖标准库。
+也可以不用安装，直接把 `multinode_bandwidth_bottleneck_consistency_check.py` 拷走用——它只依赖标准库。
 
 ## 为什么需要它
 
@@ -47,9 +47,9 @@ parallexpert_jd376 --help
 ## 用法
 
 ```bash
-python parallexpert_jd376.py --file input.txt
-python parallexpert_jd376.py --text "示例内容"
-python parallexpert_jd376.py --file input.txt --json
+python multinode_bandwidth_bottleneck_consistency_check.py --file input.txt
+python multinode_bandwidth_bottleneck_consistency_check.py --text "示例内容"
+python multinode_bandwidth_bottleneck_consistency_check.py --file input.txt --json
 ```
 
 加 `--json` 可以拿到机器可读的结果，便于接到流水线里。
@@ -62,7 +62,7 @@ python parallexpert_jd376.py --file input.txt --json
 ## 跑测试
 
 ```bash
-python test_parallexpert_jd376.py
+python test_multinode_bandwidth_bottleneck_consistency_check.py
 ```
 
 测试用独立的断言与临时数据，不污染工作目录。
@@ -70,7 +70,7 @@ python test_parallexpert_jd376.py
 ## 来源与参考
 
 - Python 标准库文档：<https://docs.python.org/3/>
-- GitHub 仓库：<https://github.com/selihorne/parallexpert_jd376>
+- GitHub 仓库：<https://github.com/selihorne/multinode_bandwidth_bottleneck_consistency_check>
 
 ---
 
@@ -79,7 +79,7 @@ python test_parallexpert_jd376.py
 selihorne 做预训练并行策略专家·多机通信的带宽瓶颈相关的问题，方向对标Anthropic的负责人预训练并行策略专家岗位。这个工具先替你回答一个具体问题，再谈别的。
 
 - 个人主页：<https://selihorne.github.io>
-- 仓库：<https://github.com/selihorne/parallexpert_jd376>
+- 仓库：<https://github.com/selihorne/multinode_bandwidth_bottleneck_consistency_check>
 
 ## 许可
 
